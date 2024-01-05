@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.row-limit-size {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+body>header>nav>ul {
+    display: flex;
+
+}
+
+.main-menu>ul>li {
+    position: relative;
+}
+
+header figure {
+    height: 70px;
+}
+
+.main-menu>ul>li>a:not(.contact) {
+    display: block;
+    height: 70px;
+    padding: 0 16px;
+    line-height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+}
+
+.main-menu>ul>li:hover>a {
+    color: #d31e44;
+}
+
+.contact{
+    display: block;
+    height: 70px;
+    padding: 0 16px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+
+}
+
+.main-menu>ul>li>.contact {
+    border: 2px solid #d31e44;
+    border-radius: 50px;
+    background-color: #d31e44;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    height: 40px;
+    box-shadow: 2px 2px 5px #454545;
+    color: white;
+    margin-top: 18px;
+}
+
+.main-menu>ul>li:hover>.contact {
+    color: #d31e44;
+    background-color: white;
+    border: 2px solid #d31e44;
+    transition: all 0.5s ease;
+}
+
+.fond {
+    background-image:url(../image/bg-header.webp);
+    height: 600px;
+    margin-top: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fond>img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding-top: 50px;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+p{
+    color:rgb(0, 0, 0);
+}
+
+
