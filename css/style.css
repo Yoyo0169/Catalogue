@@ -206,3 +206,47 @@ span {
     margin-top: 10px;
 
 }
+
+#main {
+    column-count: 2;
+    margin:0 80px;
+
+}
+
+
+#main .pedagogie>h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 100px;
+
+}
+
+#main .pedagogie>p {
+
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 97, 97);
+    text-align:justify;
+    width: 300px;
+    font-size: 16px;
+    margin-left: 100px;
+
+
+}
+
+#main .livre {
+    margin-left: 100px;
+}
+
+#main .pedagogie ul>li{
+    margin-left: 115px;
+    margin-top: 25px;
+    color: #454545;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    list-style-type: square;
+
+}
