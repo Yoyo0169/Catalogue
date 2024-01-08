@@ -45,7 +45,7 @@ header figure {
     color: #d31e44;
 }
 
-.contact{
+.contact {
     display: block;
     height: 70px;
     padding: 0 16px;
@@ -80,18 +80,18 @@ header figure {
 }
 
 .fond {
-    background-image:url(../image/bg-header.webp);
+    background-image: url(../image/bg-header.webp);
     height: 600px;
-    margin-top: 20px;
+    margin-top: 50px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.fond>img{
+.fond>img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:auto;
+    margin: auto;
     padding-top: 50px;
 }
 
@@ -105,7 +105,7 @@ h2 {
     text-align: center;
 }
 
-h1{
+h1 {
     color: white;
     font-size: 70px;
     font-weight: 900;
@@ -115,8 +115,8 @@ h1{
 
 }
 
-.fond>p{
-    color:rgb(255, 255, 255);
+.fond>p {
+    color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 35px;
     font-size: 25px;
@@ -124,7 +124,7 @@ h1{
 
 }
 
-h3{
+h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     text-transform: uppercase;
@@ -144,29 +144,30 @@ h3{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-  }
+}
 
 
-  
-  .box {
+
+.box {
     width: 380px;
-   margin: 15px;
-   background-color: #f6f6f6;
-   border-radius: 15px;
-  }
+    margin: 15px;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+}
 
-  .container>.box .texte{
+.container>.box .texte {
     display: flex;
     width: 380px;
     height: 120px;
-    margin-left: 20px;
-  }
-  .container>.box>.texte>img{
+    margin-left: 30px;
+}
+
+.container>.box>.texte>img {
     width: 50px;
     height: 50px;
-  }
+}
 
-  .container>.box>.texte>h4{
+.container>.box>.texte>h4 {
     margin-left: 20px;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -174,35 +175,34 @@ h3{
 
 
 
-  }
-   
-  span{
-    font-weight: 700;
-  }
+}
 
-  .flex {
+span {
+    font-weight: 700;
+}
+
+.flex {
     display: flex;
     height: 40px;
-  }
+}
 
-  .container>.box>.flex .picto{
+.container>.box>.flex .picto {
     margin-top: 10px;
-    margin-left: 40px;
-  }
+    margin-left: 30px;
+}
 
 
-  .container>.box>.flex>.texte>h4{
+.container>.box>.flex>.texte>h4 {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 15px;
 
-  }
+}
 
-  .container>.box .paragraphe{
+.container>.box .paragraphe {
     margin-left: 110px;
     font-size: 14px;
     margin-bottom: 10px;
     color: rgb(91, 91, 91);
     margin-top: 10px;
 
-  }
-
+}
